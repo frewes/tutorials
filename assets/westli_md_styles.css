@@ -1,12 +1,13 @@
 /**apply to code fences with plan text**/
-.language-git > *  {
+div:has(.language-git)  {
     background-color: #aaf;
     color: rgba(100, 100, 100, 1);
     margin:0 !important; 
     border-bottom: none;
   }
-.language-git+blockquote {
-    background-color: #ddf;
+/* .language-git+blockquote { */
+pre + blockquote {
+  background-color: #ddf;
     color: rgba(100, 100, 100, 1);
     border-top: none;
     margin:0 !important;
