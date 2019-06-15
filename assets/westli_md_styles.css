@@ -5,13 +5,21 @@
 }
 
 .language-bash > * {
-    background-color: #aaf;
-    color: rgba(100, 100, 100, 1);
-    margin:0 !important; 
-    border-bottom: none;
-    border-radius: 3px 3px 0 0;
-  }
-  
+  background-color: #aaf;
+  color: rgba(100, 100, 100, 1);
+  margin:0 !important; 
+  border-bottom: none;
+  border-radius: 3px 3px 0 0;
+}
+
+.language-bash pre {
+  background-color: #aaf;
+  color: rgba(100, 100, 100, 1);
+  margin:0 !important; 
+  border-bottom: none;
+  border-radius: 3px 3px 0 0;
+}
+
 .language-bash + blockquote {
   background-color: #ddf;
     color: rgba(100, 100, 100, 1);
