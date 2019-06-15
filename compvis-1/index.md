@@ -1,4 +1,4 @@
-<link href="/assets/westli_md_styles.css" rel="stylesheet"></link>
+<link href="/tutorials/assets/westli_md_styles.css" rel="stylesheet"></link>
 
 # Computer Vision for _FIRST_ Robotics
 
