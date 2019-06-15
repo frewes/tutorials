@@ -1,8 +1,3 @@
----
----
-
-@import "{{ site.theme }}";
-
 /**apply to code fences with plan text**/
 [lang="git"] {
     background-color: #aaf;
