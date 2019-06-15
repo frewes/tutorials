@@ -82,7 +82,7 @@ To start with, go to [https://github.com/new](https://github.com/new) and either
 
 Once you’ve created your repository online, you want to create a local copy where you can edit your code. To interact with Git locally, you have to install Git on your computer; just go to [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the instructions for your operating system. You’ll then have access to terminal commands for interacting with git - on Windows, this is called “git bash”, while on Linux and Mac you can type these commands directly into the terminal.
 
-```git
+```bash
 git clone https://github.com/<username>/computer-vision-tutorial
 git status 
 ```
@@ -118,7 +118,7 @@ requirements.txt
 
 Most python IDEs have a way to handle this file; if you’re using PyCharm, go to <https://www.jetbrains.com/help/pycharm/managing-dependencies.html> and follow the instructions for how to load the libraries, otherwise google your IDE to find out how to handle the requirements file properly. 
 
-```git
+```bash
 git status
 git add main.py requirements.py
 git commit -m"Started project, defined requirements"
@@ -144,7 +144,7 @@ In this game, points were scored when the game elements were thrown into the goa
 
 To prepare, you’ll need an image and a video file to test with; please download files from <ADD LINK> and <ADD LINK>, and copy them into your project directory.
 
-```git
+```bash
 git add AA.png AA.mp4
 git commit -m"Added data files"
 git push
@@ -217,7 +217,7 @@ There are simpler ways to do this, but this code gives you a “pause” key (p)
 
 Note the `waitKey(1)` here - as described above, this tells the code to wait for 1ms before moving on.  If you make this number bigger, the video will run slower, which might be helpful so you can see each frame more clearly.
 
-```git
+```bash
 git add main.py
 git commit -m"Implemented basic read/show"
 git push
@@ -287,7 +287,7 @@ main.py
 
 So, the “main” part of the code (the part which is actually run) is at the bottom, with no indent; we shouldn’t have to change this part from now on.  Instead, we’ll change the “processFrame” function - we just have to make sure that function always returns an OpenCV image.  
 
-```git
+```bash
 git add main.py
 git commit -m"Restructured code"
 git push
@@ -342,7 +342,7 @@ main.py
 
 What's the point of doing this?  Just to get some practice manipulating images in OpenCV.  Later we'll see other colour spaces that are more useful.
 
-```git
+```bash
 git add main.py
 git commit -m"Added grayscale and annotations"
 git push
@@ -424,7 +424,7 @@ Now, have a play with the vertices of the contour to improve the shape of the RO
 
 
 
-```git
+```bash
 git add main.py
 git commit -m"Added a ROI mask"
 git push
@@ -521,7 +521,7 @@ One thing to notice as well is that `bitwise_and` uses `frame` rather than `hsv`
 
 ![img](assets/pasted image 0-1560417270052.png)
 
-```git
+```bash
 git add main.py
 git commit -m"Added colour segmentation"
 git push
@@ -580,7 +580,7 @@ main.py
 
 
 
-```git
+```bash
 git add main.py
 git commit -m"Implemented morphological operators"
 git push
@@ -677,7 +677,7 @@ Can you think of any other ways to check if a contour is round?
 
 
 
-```git
+```bash
 git add main.py
 git commit -m"Detecting circles!"
 git push

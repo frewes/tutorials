@@ -1,12 +1,12 @@
 /**apply to code fences with plan text**/
-pre:has(.language-git)  {
+.language-bash  {
     background-color: #aaf;
     color: rgba(100, 100, 100, 1);
     margin:0 !important; 
     border-bottom: none;
   }
 /* .language-git+blockquote { */
-pre + blockquote {
+.language-bash + blockquote {
   background-color: #ddf;
     color: rgba(100, 100, 100, 1);
     border-top: none;
@@ -14,12 +14,15 @@ pre + blockquote {
         /*content: "⚠ Note:";*/
   }
   
- .language-python > * {
+.language-python {
+  border-radius: 5px 5px 0 0;
+}
+.language-python > * {
       background-color: #eee;
       border-bottom: none;
       margin: 0 !important;
       border-radius: 5px 5px 0 0;
-  }
+}
 .language-python+p {
       background-color: #bbb;
       padding-right: 10%;
