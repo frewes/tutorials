@@ -2,8 +2,6 @@
 
 ![AA](assets/AA.png)
 
-TEST 
-
 ### Aims
 
 * Learn to do basic Computer Vision (CV) operations
