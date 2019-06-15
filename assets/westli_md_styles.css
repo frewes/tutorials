@@ -2,7 +2,7 @@
 .language-git > *  {
     background-color: #aaf;
     color: rgba(100, 100, 100, 1);
-    margin:0;
+    margin-bottom:0;
     border-bottom: none;
   }
 .language-git+blockquote {
@@ -11,13 +11,12 @@
     border-top: none;
     margin:0;
         /*content: "⚠ Note:";*/
-  
   }
   
  .language-python > * {
       background-color: #eee;
       border-bottom: none;
-      margin: 0;
+      margin-bottom: 0;
   }
 .language-python+p {
       background-color: #bbb;
