@@ -1,11 +1,16 @@
 /**apply to code fences with plan text**/
-.language-bash  {
+.language-bash {
+  border-radius: 3px 3px 0 0;
+}
+
+.language-bash > * {
     background-color: #aaf;
     color: rgba(100, 100, 100, 1);
     margin:0 !important; 
     border-bottom: none;
+    border-radius: 3px 3px 0 0;
   }
-/* .language-git+blockquote { */
+  
 .language-bash + blockquote {
   background-color: #ddf;
     color: rgba(100, 100, 100, 1);
@@ -15,13 +20,13 @@
   }
   
 .language-python {
-  border-radius: 5px 5px 0 0;
+  border-radius: 3px 3px 0 0;
 }
 .language-python > * {
       background-color: #eee;
       border-bottom: none;
       margin: 0 !important;
-      border-radius: 5px 5px 0 0;
+      border-radius: 3px 3px 0 0;
 }
 .language-python+p {
       background-color: #bbb;
