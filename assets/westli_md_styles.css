@@ -3,7 +3,7 @@
   border-radius: 3px 3px 0 0;
 }
 
-.language-bash > * {
+.language-bash * {
     background-color: #aaf;
     color: rgba(100, 100, 100, 1);
     margin:0 !important; 
@@ -16,13 +16,14 @@
     color: rgba(100, 100, 100, 1);
     border-top: none;
     margin:0 !important;
+    border-radius: 0 0 3px 3px;
         /*content: "⚠ Note:";*/
   }
   
 .language-python {
   border-radius: 3px 3px 0 0;
 }
-.language-python > * {
+.language-python * {
       background-color: #eee;
       border-bottom: none;
       margin: 0 !important;
@@ -35,7 +36,7 @@
       font-style: italic;
       font-weight: bold;
       border-top: none;
-      border-radius: 0 0 5px 5px;
+      border-radius: 0 0 3px 3px;
       margin: 0 !important;
   }
   
