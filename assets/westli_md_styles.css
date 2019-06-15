@@ -1,9 +1,10 @@
 /**apply to code fences with plan text**/
 .language-bash {
   border-radius: 3px 3px 0 0;
+  background-color: #aaf;
 }
 
-.language-bash * {
+.language-bash > * {
     background-color: #aaf;
     color: rgba(100, 100, 100, 1);
     margin:0 !important; 
@@ -23,7 +24,7 @@
 .language-python {
   border-radius: 3px 3px 0 0;
 }
-.language-python * {
+.language-python > * {
       background-color: #eee;
       border-bottom: none;
       margin: 0 !important;
