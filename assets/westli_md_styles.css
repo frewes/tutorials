@@ -1,5 +1,5 @@
 /**apply to code fences with plan text**/
-.language-git {
+.language-git > *  {
     background-color: #aaf;
     color: rgba(100, 100, 100, 1);
     margin:0;
@@ -14,7 +14,7 @@
   
   }
   
- .language-python {
+ .language-python > * {
       background-color: #eee;
       border-bottom: none;
       margin: 0;
