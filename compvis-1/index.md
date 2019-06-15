@@ -1,3 +1,5 @@
+<link href="/assets/westli_md_styles.css" rel="stylesheet"></link>
+
 # Computer Vision for _FIRST_ Robotics
 
 ![AA](assets/AA.png)
