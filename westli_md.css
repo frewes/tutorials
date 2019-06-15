@@ -1,0 +1,43 @@
+
+/**apply to code fences with plan text**/
+[lang="git"] {
+  background-color: #aaf;
+  color: rgba(100, 100, 100, 1);
+  margin:0;
+  border-bottom: none;
+}
+[lang="git"]+blockquote {
+  background-color: #ddf;
+  color: rgba(100, 100, 100, 1);
+  border-top: none;
+  margin:0;
+      /*content: "⚠ Note:";*/
+
+}
+
+pre[lang="python"] {
+    background-color: #eee;
+	border-bottom: none;
+    margin: 0;
+}
+pre[lang="python"]+p {
+    background-color: #bbb;
+    padding-right: 10%;
+	text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    border-top: none;
+    margin: 0;
+}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+.alert.info {
+    background-color: #2196F3;
+}
