@@ -10,6 +10,11 @@
 * Develop a system for intelligent analysis of a scene
 * Learn how to find the resources to develop further CV skills
 
+<p class='specialParagraph' markdown='1'>
+**Another paragraph** which allows *Markdown* within it.
+</p>
+
+
 ### Resources
 *  [OpenCV tutorials](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
 *  [PyCharm IDE](https://www.jetbrains.com/pycharm/) or OCVID (if ready)   
