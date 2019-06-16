@@ -10,7 +10,7 @@
 * Develop a system for intelligent analysis of a scene
 * Learn how to find the resources to develop further CV skills
 
-<p class='specialParagraph' markdown='1'>
+<p class='alert info' markdown='1'>
 **Another paragraph** which allows *Markdown* within it.
 </p>
 
